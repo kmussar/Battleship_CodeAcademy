@@ -1,3 +1,6 @@
+""" """
+
+# Instructions for the game. 
 print("Hello!")
 print("Welcome to Battleship! Your objective is to guess my ship's location on a 5x5 grid (starting at 0). My ship takes up only 1 space. You have 4 guesses. Your guesses will show up as X's on the board. Here is the board. Good luck! ")
 # Import things and set up variables. 
@@ -24,8 +27,7 @@ ship_col = random_col(board)
 print(ship_row
 print(ship_col
 """
-# Everything from here on should go in your for loop!
-# Be sure to indent four spaces!
+
 
 # Running the game - user guessing and comparissons. 
 for turn in range(4): 
